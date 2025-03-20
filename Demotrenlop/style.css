@@ -1,0 +1,572 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    height: 238px;
+    width: 100%;
+    background-color: green;
+}
+
+#top {
+    height: 48px;
+    width: 100%;
+    background-color: green;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#top-left {
+    width: 60%;
+    float: left;
+    padding-top: 25px;
+}
+
+#top-right {
+    width: 40%;
+    float: right;
+    text-align: right;
+    padding-top: 25px;
+}
+
+#banner {
+    height: 172px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; 
+}
+
+.banner-section {
+    width: 20%;
+    height: 72px;
+    float: left;
+}
+
+.logo {
+    width: 80%;
+    margin-top: 13px;
+}
+
+.icon {
+    width: 20%;
+    float: left;
+    margin-top: 20px;
+}
+
+.text {
+    width: 78%;
+    float: right;
+    margin-top: 13px;
+    line-height: 24px;
+}
+
+.cart-button {
+    display: block;
+    line-height: 36px;
+    background-color: orange;
+    height: 36px;
+    width: 150px;
+    color: white;
+    margin-top: 18px;
+    border-radius: 10px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+}
+
+#menu {
+    height: 48px;
+    width: 100%;
+    background-color: green;
+}
+
+#menu-content {
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu li {
+    float: left;
+    height: 100%;
+    padding: 0px 15px;
+    position: relative; 
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 48px;
+}
+
+#menu li:hover > a {
+    background-color: orange;
+}
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    top: 48px;
+    left: 0px;
+    background-color: #DFDFDF;
+    z-index: 999;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+#menu li li {
+    line-height: 36px;
+    width: 180px;
+    border-bottom: 1px solid #CCC;
+}
+
+#menu li li a {
+    padding-left: 15px;
+    color: #333;
+}
+
+#menu li li a:hover {
+    color: #FFF;
+}
+
+#container {
+    min-height: 500px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+#image img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    margin-top: 30px; 
+}
+
+#wrapper {
+    width: 80%;
+    margin: 30px auto;
+}
+
+#sidebar {
+    width: 25%;
+    float: left;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+#sidebar h1 {
+    font-size: 16pt;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    line-height: 40px;
+    margin: 0px;
+}
+
+#sidebar ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+#sidebar li {
+    width: 100%;
+    line-height: 36px;
+    border-bottom: 1px solid gray;
+    position: relative; 
+}
+
+#sidebar a {
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+#sidebar ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #DFDFDF;
+    z-index: 999;
+}
+
+#sidebar li:hover ul {
+    display: block;
+}
+
+#sidebar li li {
+    line-height: 36px;
+    width: 180px;
+    border-bottom: 1px solid #CCC;
+}
+
+#sidebar li li a {
+    padding-left: 15px;
+    color: #333;
+}
+
+#sidebar li li a:hover {
+    color: #FFF;
+}
+
+#sideshow {
+    width: 72%;
+    float: right;
+}
+
+#sideshow img {
+    width: 100%;
+    height: 450px;
+}
+
+#ads {
+    width: 100%;
+    height: 156px;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    float: left;
+}
+
+#ads img {
+    width: 30%;
+    height: 100%;
+    padding-top: 0 15px;
+}
+
+#ads .ads-middle {
+    padding: 0px 47px;
+}
+
+#cate1, #cate2 {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+#cate1 h1, #cate2 h1 {
+    font-size: 14pt;
+    width: 300px;
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    line-height: 40px;
+    margin: 0px;
+}
+
+#product-cate1, #product-cate2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.product {
+    width: 23.3%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .product-image {
+    width: 80%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.product a {
+    display: block;
+    margin-top: 10px;
+}
+
+.product .price {
+    color: orange;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+.product .old-price {
+    color: gray;
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#footer {
+    height: 368px;
+    width: 100%;
+    background-color: green;
+    float: left;
+    margin-top: 30px;
+}
+
+#footer .container {
+    width: 80%;
+    margin: auto;
+}
+
+.hotro, .chinhsach, .map {
+    width: 25%;
+    height: 308px;
+    margin-top: 30px;
+    float: left;
+}
+
+.map {
+    width: 50%;
+}
+
+#footer h1 {
+    list-style: 38px;
+    color: white;
+    font-size: 14pt;
+}
+
+#footer ul {
+    margin: 0px;
+    padding: 0px;
+    line-height: 36px;
+    list-style: none;
+}
+
+#footer a {
+    color: white;
+    text-decoration: none;
+}
+
+#quick-contact {
+    position: fixed;
+    bottom: 368px;
+    right: 0px;
+}
+
+#quick-contact img {
+    width: 50px;
+}
+
+/* For Mobile (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    #menu ul ul {
+        display: none; 
+    }
+
+    #menu li:hover > ul {
+        display: block; 
+    }
+
+    #sidebar {
+        display: none; 
+    }
+
+    #sideshow {
+        width: 100%; 
+    }
+
+    #footer .map {
+        width: 100%; }
+
+    #footer .chinhsach,
+    #footer .hotro {
+        display: none;
+    }
+
+    .banner-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-section .icon,
+    .banner-section .text {
+        display: none; 
+    }
+
+    .banner-section .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+    #quick-contact {
+        display: none;
+    }
+
+    #menu {
+        display: none; 
+    }
+
+    #top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+        background-color: white;
+    }
+
+    .banner-section .logo {
+        width: 20%;
+        max-width: 150px;
+        display: block;
+    }
+
+    #top-left {
+        display: none;
+    }
+
+    #top-right {
+        display: flex;
+    }
+
+    #ads {
+        display: none;
+    }
+
+    #sideshow {
+        display: none;
+    }
+
+    .product {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .product img {
+        width: 100%;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    #container {
+        padding-top: 20px; 
+    }
+}
+
+/* For Tablet (min-width: 768px) and (max-width: 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+       #menu ul ul {
+              display: none; 
+          }
+      
+          #menu li:hover > ul {
+              display: block; 
+          }
+      
+          #sidebar {
+              display: none; 
+          }
+      
+          #sideshow {
+              width: 100%; 
+          }
+      
+          #footer .map {
+              width: 100%; 
+          }
+      
+          #footer .chinhsach,
+          #footer .hotro {
+              display: none; 
+          }
+      
+          #footer .contact {
+              display: block; 
+          }
+      
+          .banner-section {
+              width: 33.33%; 
+              text-align: center;
+          }
+      
+          .banner-section .icon,
+          .banner-section .text {
+              display: block; 
+          }
+      
+          .banner-section .logo {
+              width: 100px; 
+              display: block;
+              margin: 0 auto;
+          }
+      
+          .cart-button {
+              display: block;
+              line-height: 36px;
+              background-color: orange;
+              height: 36px;
+              width: 150px;
+              color: white;
+              margin-top: 18px;
+              border-radius: 10px;
+              text-align: center;
+              float: right;
+              text-decoration: none;
+          }
+      
+          .product {
+              width: 48%; 
+              margin-bottom: 20px;
+          }
+}
+
+/* For Laptop/PC (min-width: 1024px) */
+@media only screen and (min-width: 1024px) {
+    #footer .map {
+        display: block; 
+    }
+
+    #footer .support,
+    #footer .contact {
+        display: block;
+    }
+
+    .banner-section {
+        width: 20%; 
+    }
+
+    #sideshow {
+        width: 72%; 
+    }
+
+    .product {
+        width: 23.3%; 
+    }
+
+    #sidebar {
+        display: block; 
+    }
+}

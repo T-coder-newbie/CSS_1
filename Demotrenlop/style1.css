@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+}
+
+#header {
+    background-color: green; 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+    background: #35424a;
+}
+
+#menu-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+#menu-content ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#menu-content ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sidebar {
+    width: 25%;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#sideshow {
+    width: 50%;
+    padding: 20px;
+}
+
+#ads {
+    width: 25%;
+    padding: 20px;
+}
+
+.product {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.old-price {
+    color: #7f8c8d;
+    text-decoration: line-through;
+}
+
+#footer {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#quick-contact img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: #35424a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background: #2c3e50;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+p {
+    text-align: center;
+}
+
+p a {
+    color: #007bff; /* Blue link */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
